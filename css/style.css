@@ -2,7 +2,9 @@ h3.intro-text{
 	font-family:helvetica;
 	text-align:left;
 	text-transform:none;
-	font-size:48px;
+	font-size:91px;
+	font-weight:lighter;
+	line-height:1.3em;
 	color:white;
 	box-shadow:none;
 }
