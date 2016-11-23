@@ -1,0 +1,22 @@
+h3.intro-text{
+	font-family:helvetica;
+	text-align:left;
+	text-transform:none;
+	font-size:48px;
+	color:white;
+	box-shadow:none;
+}
+.ib{
+	font-family:helvetica;
+	text-align:left;
+	text-transform:none;
+	font-size:40px;
+	color:white;
+}
+.left-align{
+	text-align:left;
+}
+.design-plus-code{
+	width:100%;
+	display:block;
+}
