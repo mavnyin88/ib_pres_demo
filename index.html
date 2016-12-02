@@ -6,6 +6,7 @@
 
 		<title>reveal.js</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400,500" rel="stylesheet">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -15,18 +16,27 @@
 		<div class="reveal">
 			<div class="slides">
 				<section data-background-color="#191919" data-transition="fragment fade-in">
-					<h3 class="intro-text">Introduction to the power of coding with <span style="color:#e55025">HTML</span>/<span style="color:#e4a235">CSS</span>/<span style="color:#0e73b9">JavaScript</span></h3>
+					<h3 class="intro-text">Introduction to the power of coding with <span style="color:#e55025;font-family: 'Raleway', sans-serif;">HTML</span></span><span style="color:#e4a235;font-family: 'Raleway', sans-serif;">/CSS</span><span style="color:#0e73b9;font-family: 'Raleway', sans-serif;">/JavaScript</span></h3>
+					<h6 class="landscape-text">*For best experience on mobile turn your phone sideways(landscape)</h6>
 				</section>
-				<section data-background-color="#191919" data-transition="fragment fade-in">
-					<h3 class="intro-text">
+				<section data-background-color="#191919" data-transition="fragment fade-in" style="position:relative;">
+					<h3 class="intro-text" style="margin-left:20px;">
 						Why are we doing this?
 					</h3>
-					<ul>
-						<li style="color:#e55025; font-size:80px;">Experiment</li>
-						<li style="color:#e4a235; font-size:80px;">UX/Experience</li>
-						<li style="color:#0e73b9; font-size:80px;">Design + coding integration</li>
-						<li style="color:#2ead56; font-size:80px;">Inspiration</li>
+					<ul style="margin:0;">
+						<li style="color:#e55025; font-size:80px;list-style-type: none;font-family: 'Raleway', sans-serif;font-weight:300;">Experiment</li>
+						<li style="color:#e4a235; font-size:80px;list-style-type: none;font-family: 'Raleway', sans-serif;font-weight:300;">UX/Experience</li>
+						<li style="color:#0e73b9; font-size:80px;list-style-type: none;font-family: 'Raleway', sans-serif;font-weight:300;">Design + coding integration</li>
+						<li style="color:#2ead56; font-size:80px;list-style-type: none;font-family: 'Raleway', sans-serif;font-weight:300;">Inspiration</li>
 					</ul>
+				</section>
+				<section data-background-color="#191919" data-transition="fragment fade-in">
+					<h3 class="intro-text" style="font-size:70px;text-align:left;margin-bottom:80px;">
+						<span style="background-color:#2ead56;padding:50px;padding-top:50px;padding-bottom:50px;">Why are we <em>really</em> doing this?</span>
+					</h3>
+						<h3 style="font-size:70px;color:#e55025;text-align:left !important;text-transform:none;font-family: 'Raleway', sans-serif;font-weight:300;">To Build...</h3>
+						<h3 style="font-size:70px;color:#e4a235;text-align:center !important;text-transform:none;font-family: 'Raleway', sans-serif;font-weight:300;">really cool...</h3>
+						<h3 style="font-size:70px;color:#0e73b9;text-align:right !important;text-transform:none;font-family: 'Raleway', sans-serif;font-weight:300;">$h!t</h3>
 				</section>
 				<section data-background-color="#191919">
 					<section>
@@ -77,7 +87,7 @@
 				<section data-background-color="#191919">
 					<section>
 						<h3 class="intro-text">
-							Dedicated section to show work by Colin and Michael (1 example each? talk about it breifly?)
+							What are other companys doing that we arent?
 						</h3>
 					</section>
 					<section>
@@ -96,6 +106,11 @@
 						Future? What kind of products can we offer?
 					</h3>
 				</section>
+				<section>
+					<div class="circle one"></div>
+					<div class="circle two"></div>
+					<div class="circle three"></div>
+				</section>
 			</div>
 		</div>
 
@@ -108,6 +123,15 @@
 			Reveal.initialize({
 				// transition: 'zoom',
 				// transition: 'slide',
+				width: 1200,
+    			height: 900,
+
+    // Factor of the display size that should remain empty around the content
+    margin: 0.1,
+
+    // Bounds for smallest/largest possible scale to apply to content
+    minScale: 0.2,
+    maxScale: 1.5,
 
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },

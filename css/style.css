@@ -1,15 +1,28 @@
 h3.intro-text{
-	font-family:helvetica;
+	font-family: 'Montserrat', sans-serif;
 	text-align:left;
 	text-transform:none;
-	font-size:91px;
+	font-size:88px;
 	font-weight:lighter;
 	line-height:1.3em;
 	color:white;
 	box-shadow:none;
 }
+h6.landscape-text{
+	font-family: 'Raleway', sans-serif;
+	text-align:left;
+	text-transform:none;
+	font-size:26px;
+	font-weight:lighter;
+	line-height:1.3em;
+	color:#2ead56;
+	box-shadow:none;
+}
+li{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+}
 .ib{
-	font-family:helvetica;
 	text-align:left;
 	text-transform:none;
 	font-size:40px;
@@ -21,4 +34,40 @@ h3.intro-text{
 .design-plus-code{
 	width:100%;
 	display:block;
+}
+* {
+  overflow: hidden;
+  margin: 0;
+}
+body {
+  background: #000;
+  font-family: 'Montserrat', sans-serif;
+
+}
+@keyframes circle {
+	from {
+		transform: scale(0)
+	}
+	to {
+		transform: scale(6)
+	}
+}
+.circle {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border: 20px solid CadetBlue;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+.one {
+  animation: circle 4s infinite linear;
+}
+.two {
+  animation: circle 3s infinite linear;
+}
+.three {
+  animation: circle 2s infinite linear;
 }
