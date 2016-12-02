@@ -4,11 +4,13 @@ h3.intro-text{
 	text-transform:none;
 	font-size:88px;
 	font-weight:lighter;
-	line-height:1.3em;
+	line-height:1.1em;
 	color:white;
 	box-shadow:none;
+
 }
 h6.landscape-text{
+	margin-top:100px;
 	font-family: 'Raleway', sans-serif;
 	text-align:left;
 	text-transform:none;
