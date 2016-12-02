@@ -24,6 +24,9 @@ li{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 }
+.mons-font{
+	font-family: 'Raleway', sans-serif !important;
+}
 .ib{
 	text-align:left;
 	text-transform:none;
